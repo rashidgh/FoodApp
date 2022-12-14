@@ -1,0 +1,50 @@
+[{
+    "nonVeg" :[
+        {
+            "price":"200",
+            "name":"Egg Mix Soap"
+        },
+        {
+            "price":"220",
+            "name":"Chiken biryani"
+        },
+        {
+            "price":"150",
+            "name":"Egg_birayani"
+        },
+        {
+            "price":"280",
+            "name":"Mutton_Biryani"
+        },
+        {
+            "price":"200",
+            "name":"Chiken_Fry"
+        }
+    ],
+    "Veg":[
+      {
+        "price": "100",
+        "name": "Pasta_Salad."
+      },
+      {
+        "price": "200",
+        "name": "Fried_Rice"
+      },
+      {
+        "price": "120",
+        "name": "Tortilla_Soup"
+      },
+      {
+        "price": "100",
+        "name": "FriedRice"
+      },
+      {
+        "price": "180",
+        "name": "Tortilla Soup"
+      },
+      {
+        "price": "150",
+        "name": "Masala Dhosa"
+      }
+    ]
+}]

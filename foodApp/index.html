@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="formBlock">
+        <article>
+            <h1>Laziz Biryani</h1>
+            <form class="form">
+            <input placeholder="enter your name" type="text" name="" id="name"><br>
+            <!-- datalist -->
+            <div>
+            <label for="">Vegetarian</label>
+            <input type="radio" name="veg" id="veg" onclick="VeghandleChange()">
+            <label for="">Non-Vegitarian</label>
+            <input type="radio" name="veg" id="nonveg" onclick="NonveghandleChange()">
+            </div>
+            <br>
+            <select id="browser" type="text">
+            </select>
+            <div class="quantity ">
+                <i class="fa-solid fa-minus minus" onclick="decrement()"></i>
+                <span class="qty">1</span>
+                <!-- <input type="number" name="" id="" min="0" value="0"> -->
+                <i class="fa-solid fa-plus add" onclick="increment()"></i>
+            </div>
+            <textarea style="width:100%; padding: 20px;" name="" id="" cols="30" rows="5" placeholder="enter your adress"></textarea>
+            <select id="countary">
+                
+            </select>
+            <div class="btn">
+                <button >submit</button>
+            </div>
+            </form>
+        </article>
+        <article>
+            <table id="foodtable">
+                <!-- <h1 class="order">Order List</h1> -->
+                <tbody>
+                    <tr><th>Customer Name:</th><td class="cusName"><th>Adress:</th><td class="adress"></td>
+                    <th>Invoice#:</th><td class="invoice"></td></tr>
+                    <th>Item No:</th>
+                    <th>Food:</th>
+                    <th>Price:</th>
+                    <th>Quantity:</th>
+                    <th>Total:</th>
+                    <tbody class="body">
+                    </tbody>
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>

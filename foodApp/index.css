@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#formBlock{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+        height: 100vh;
+        /* justify-content: center; */
+        /* align-items: center; */
+        padding-left: 40px;
+        background-image: url("https://media.istockphoto.com/id/1367700004/photo/chicken-kebab-mutton-biryani-paneer-tikka-and-chicken-tikka-indian-non-veg-tandoor-cuisine.jpg?b=1&s=170667a&w=0&k=20&c=Dw9ohgodflWOcwc6SUGxgkjVbiEHcjF5FOg_pFN9oOI=");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#formBlock form{
+    width: 400px;
+    height: 80vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(224, 222, 222, 0.644);
+    padding: 30px 60px;
+}
+#formBlock h1{
+    font-size: 35px;
+    width:fit-content;
+    margin-left: 90px;
+    /* text-align: center; */
+    padding-bottom: 10px;
+    border-bottom: 2px dashed rgb(248, 248, 1);
+    margin-bottom: 10px;
+    color: white;
+    font-family: cursive;
+    text-shadow:  3px 3px rgb(160, 160, 1);
+}
+#formBlock form input{
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 4px;
+    border: none;
+}
+#formBlock form input[type = "text"]{
+    width: 100%;
+}
+#formBlock form input[type = "radio"]{
+    margin: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    width:100%;
+    text-align: center;
+}
+.btn button{
+    padding: 10px 20px;
+    background-color: crimson;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(207, 71, 99);
+    transition: ease-in-out 0.4s;
+}
+#foodtable{
+    border: 2px dashed rgb(149, 241, 0);
+    width: 60%;
+    font-size: 20px ;
+    position: absolute;
+    color: dodgerblue;
+    background-color: rgba(255, 255, 255, 0.773);
+    font-family: cursive;
+    top: 0;
+    right: 20px;
+    padding: 10px 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#foodtable th{
+    padding: 20px;
+    color: crimson;
+    text-align: center;
+}
+#foodtable td{
+    color: rgb(0, 85, 255) ;
+    text-align: center;
+    padding: 4px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+#browser{
+    height: 30px;
+    padding-left: 20px;
+    color: crimson;
+    font-size: 20px;
+    border-radius: 8px;
+}
+textarea{
+    border-radius: 8px;
+    font-size: 20px;
+    color: chocolate;
+}
+/* !remove */
+.remove{
+    padding-right: 9px;
+    cursor: pointer;
+    color: brown;
+}
+#countary{
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+}
+.add{
+    padding: 10px 20px;
+    color: rgb(247, 5, 150);
+    font-size: 25px;
+    cursor: pointer;
+}
+.minus{
+    padding: 10px 20px;
+    color: rgb(247, 5, 150);
+    font-size: 25px;
+    cursor: pointer;
+}
+label{
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(220, 40, 20);
+}
+.qty{
+    font-size: 25px;
+    font-family: cursive;
+    color: blueviolet;
+}
+.edit{
+    cursor: pointer;
+}
